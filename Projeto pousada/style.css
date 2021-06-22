@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;    
+    max-width: 1024px;
+    margin: 10px 150px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+header a span {
+    color: blue;
+}
+
+header nav a {
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 0 20px;
+}
+
+header nav a:hover {
+    border-bottom: 3px solid #6592c9;
+}
+
+.caixa {
+    background-image: url(img-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal {
+    background-color: rgba(9, 185, 83, 0.5);
+    color: white;
+    width: 35%;
+    height: 200px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.principal h1 {
+    margin: 50px auto;
+    font-size: 50px;
+}
+
+.principal p {
+    font-size: 22px;
+}
+
+.conteudo {
+    text-align: center;
+    width: 100%;
+    height: 140px;
+    margin-top: 20px;
+}
+
+.conteudo h2 {
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.conteudo p {
+    padding: 5px;
+}
+
+.quartos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.quartos img {
+    width: 320px;
+}
+
+.quartos a {
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    border-bottom: 2px solid rgb(29, 141, 175);
+}
+
+.quartos p {
+    padding: 10px;
+}    
+
+iframe {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.bloco {
+    display: flex;
+    width: 50%;
+    padding: 20px;
+    height: 190px;
+}
+
+.bloco img {
+    width: 35%;
+    height: 100%;
+    float: right;
+}
+
+.bloco div {
+    width: 65%;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+.bloco div h3 {
+    padding: 15px 0;
+}
+
+footer {
+    background-color: rgb(2, 160, 112);
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 140px;
+    font-size: 16px;
+}    
+
+.footer {
+    display: flex;
+    margin: 30px auto;
+    justify-content: space-around;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.rodape {
+    display: flex;
+}
+
+.rodape img {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+}
+
+.copy {
+    text-align: center;
+    padding-top: 10px;     
+}
